@@ -3,7 +3,7 @@
     Src: ENROLLMENT/ENROLL/1
     Type: string
     Req: true
-		Test - Row 1 was left blank for patient_id
+		Test - Row 1 was left blank for patient_id (FAILED)
 
 2- case_id:
     Desc: globally unique ID by which the system can unambiguously identify and display a specific patient even across studies/trials. Likely to be a concatenation of a study identifier and patient_id below.
@@ -11,7 +11,7 @@
     Type: string
     Req: true
 	
-		Test - Row 6 was left blank for case_id
+		Test - Row 6 was left blank for case_id (FAILED)
 
 
 NOTE: All other properties listed on this node were not testable because they were either strings or not required (no constraints).
